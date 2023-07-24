@@ -29,8 +29,8 @@ body {
 .playing {
 
 	transform: scale(1.1);
-	border-color:darkblue;
-	box-shadow: 0 0 5px darkblue;
+	border-color:#FFD93D;
+	box-shadow: 0 0 10px #FFD93D;
 
 
 }
