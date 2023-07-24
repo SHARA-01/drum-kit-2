@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Drum Kit Project</title>
+	<link rel="stylesheet" type="text/css" href="./main.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Michroma&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<div class="heading"><h1>JavaScript    Drum     Kit</h1></div>
+
+	<div id="box" class="container">
+		<div data-key="65"class="key">
+			<kbd>A</kbd>
+			<span class="sound">clap</span>
+		</div>
+		<div class="key" data-key="83">
+			<kbd>S</kbd>
+			<span class="sound">hihte</span>
+		</div>
+		<div data-key="68" class="key">
+			<kbd>D</kbd>
+			<span class="sound">drum</span>
+		</div>
+		<div data-key="70" class="key">
+			<kbd>F</kbd>
+			<span class="sound">bass</span>
+		</div>
+		<div data-key='71' class="key">
+			<kbd>G</kbd>
+			<span class="sound">an</span>
+		</div>
+		<div data-key="72" class="key">
+			<kbd>H</kbd>
+			<span class="sound">item</span>
+		</div>
+		<div data-key="74" class="key">
+			<kbd>J</kbd>
+			<span class="sound">sond</span>
+		</div>
+		<div data-key="75" class="key">
+			<kbd>K</kbd>
+			<span class="sound">check</span>
+		</div>
+		<div data-key="76" class="key">
+			<kbd>L</kbd>
+			<span class="sound">red</span>
+		</div>
+		
+	</div>
+
+	<audio data-key="65" src="./sounds/crash.mp3"></audio>
+	<audio data-key="83" src="./sounds/tom-1.mp3"></audio>
+	<audio data-key="68" src="./sounds/snare.mp3"></audio>
+	<audio data-key="70" src="./sounds/tom-1.mp3"></audio>
+	<audio data-key="71" src="./sounds/tom-2.mp3"></audio>
+	<audio data-key="72" src="./sounds/tom-3.mp3"></audio>
+	<audio data-key="74" src="./sounds/tom-4.mp3"></audio>
+	<audio data-key="75" src="./sounds/snare.mp3"></audio>
+	<audio data-key="76" src="./sounds/crash.mp3"></audio>
+
+
+
+
+	  <script type="text/javascript" src="index.js"></script>
+
+</body>
+</html>
